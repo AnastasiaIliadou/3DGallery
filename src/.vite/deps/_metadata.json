@@ -1,0 +1,47 @@
+{
+  "hash": "ef11b55f",
+  "browserHash": "36b54649",
+  "optimized": {
+    "three": {
+      "src": "../../../node_modules/three/build/three.module.js",
+      "file": "three.js",
+      "fileHash": "77f03283",
+      "needsInterop": false
+    },
+    "three-stdlib": {
+      "src": "../../../node_modules/three-stdlib/index.js",
+      "file": "three-stdlib.js",
+      "fileHash": "2aab8379",
+      "needsInterop": false
+    },
+    "three/addons/loaders/GLTFLoader.js": {
+      "src": "../../../node_modules/three/examples/jsm/loaders/GLTFLoader.js",
+      "file": "three_addons_loaders_GLTFLoader__js.js",
+      "fileHash": "1c41848e",
+      "needsInterop": false
+    },
+    "three/addons/webxr/VRButton.js": {
+      "src": "../../../node_modules/three/examples/jsm/webxr/VRButton.js",
+      "file": "three_addons_webxr_VRButton__js.js",
+      "fileHash": "a5168421",
+      "needsInterop": false
+    },
+    "three/addons/webxr/XRControllerModelFactory.js": {
+      "src": "../../../node_modules/three/examples/jsm/webxr/XRControllerModelFactory.js",
+      "file": "three_addons_webxr_XRControllerModelFactory__js.js",
+      "fileHash": "5c63a6b2",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-2SLBUFNL": {
+      "file": "chunk-2SLBUFNL.js"
+    },
+    "chunk-MOCVLCHI": {
+      "file": "chunk-MOCVLCHI.js"
+    },
+    "chunk-4EOJPDL2": {
+      "file": "chunk-4EOJPDL2.js"
+    }
+  }
+}

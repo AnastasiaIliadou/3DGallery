@@ -1,0 +1,289 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 16297,
+      "max": [
+        5.213919639587402,
+        9.682635307312012,
+        5.6255784034729
+      ],
+      "min": [
+        -5.6392903327941895,
+        -10.112401008605957,
+        -5.255733489990234
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 195564,
+      "componentType": 5126,
+      "count": 16297,
+      "max": [
+        0.9998529553413391,
+        0.9999521374702454,
+        0.9999236464500427
+      ],
+      "min": [
+        -0.999871015548706,
+        -0.9999951720237732,
+        -0.9997459650039673
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 16297,
+      "max": [
+        0.9997829794883728,
+        0.9999972581863403,
+        0.9998242855072021,
+        1.0
+      ],
+      "min": [
+        -0.9999901056289673,
+        -0.9994646310806274,
+        -0.9998863339424133,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 16297,
+      "max": [
+        0.9979999661445618,
+        0.9910300970077515
+      ],
+      "min": [
+        0.0020000000949949026,
+        0.0020000000949949026
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 88773,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "3dhdscan (https://sketchfab.com/3dhdscan)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/vase-from-the-park-in-konopiste-chateau-5399495e7f1842ee9cd0987cc363854f",
+      "title": "Vase from the park in Konopiště chateau"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 355092,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 130376,
+      "byteOffset": 355092,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 391128,
+      "byteOffset": 485468,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 260752,
+      "byteOffset": 876596,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1137348,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/konopiste_vase_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/konopiste_vase_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/konopiste_vase_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "konopiste_vase",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.8275533536585366
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "konopiste_vase_konopiste_vase_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.11555592762269917,
+        -0.001282813219504117,
+        -4.853116901560103e-19,
+        0.0,
+        0.001282813219504117,
+        0.11555592762269917,
+        5.843070625852415e-17,
+        0.0,
+        -2.004699356386112e-19,
+        -5.843228772453863e-17,
+        0.1155630499124527,
+        0.0,
+        -0.1726301610469818,
+        -15.179373741149899,
+        -15.922664642333988,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "konopiste_vase.FBX"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.006504535675048828,
+        -15.335375785827637,
+        -0.5573017597198486,
+        1.0
+      ],
+      "name": "konopiste_vase"
+    },
+    {
+      "mesh": 0,
+      "name": "konopiste_vase_konopiste_vase_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
